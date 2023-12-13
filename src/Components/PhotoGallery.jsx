@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Dhammapada from '../assets/images/Dhammapada.jpg';
+import Dhammapada from '../assets/images/dhammapada.jpg';
 import Chatgpt from '../assets/images/chatgpt-ai.jpeg';
 import Veritassium from '../assets/images/Veritasium.jpg';
 import Sigmund from '../assets/images/Sigmund.jpg';
