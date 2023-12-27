@@ -15,7 +15,7 @@ const Navbar = () => {
           </a>
 
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="https://github.com/Barsat-Khadka/react-usm" className="nav-link px-2 menu-color-sc" target='_blank'>Click Me for Source Code</a></li>
+            <li><a href="https://github.com/Barsat-Khadka?tab=repositories" className="nav-link px-2 menu-color-sc" target='_blank'>Click Me for Source Code</a></li>
           </ul>
 
           <div className="col-md-3 text-end d-flex align-items-center"> 
