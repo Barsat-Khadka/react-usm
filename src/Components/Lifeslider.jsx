@@ -192,7 +192,7 @@ const Lifeslider = () => {
       Description: 'Junior Technician',
       Date: "July 3, 2022 - September 24, 2022",
       Extra:"Worked on frontend web projects with seniors. Reviewed codebase and learned industry practices in software engineering.",
-      Link: "source code"
+      Link: linkElement10
     },
     {
       Image: dad,
@@ -255,7 +255,7 @@ const Lifeslider = () => {
           <h1>Life Slider</h1>
           <p>A look back at significant moments.</p>
         </div>
-        <Marquee pauseOnHover={true} play={isPlaying} direction={marqueeDirection}>
+        <Marquee pauseOnHover={true} play={isPlaying} direction={marqueeDirection} speed="80">
           {cards.map((card, index) => (
             <div className="image-wrapper" key={index}>
               <LifeCard {...card} />

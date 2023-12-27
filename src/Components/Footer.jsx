@@ -23,6 +23,7 @@ const Footer = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
+    
   };
 
   const halfWhiteStyle = {
@@ -32,6 +33,7 @@ const Footer = () => {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: '50px'
   };
 
   const imageStyle = {
@@ -47,7 +49,7 @@ const Footer = () => {
           <br />
           Thank you for your review.
         </h2>
-        <img src={Nepal} alt="Your Alt Text" style={imageStyle} />
+        <iframe width="560" className='mt-3' height="315" src="https://www.youtube.com/embed/Wa9SniENdE8?si=2DuqkKVPrbHGjtOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div className='mt-3 top-text-before'>SOUTHERN MISS TO THE TOP! (SMTTT)</div>
       </div>
       <div style={halfBlackStyle}>

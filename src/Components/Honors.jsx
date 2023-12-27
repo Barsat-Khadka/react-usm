@@ -57,7 +57,7 @@ const Honors = () => {
             </p>
             <div className='stylish-font'>
               <p>Bir Amar Singh 63rd annual program</p>
-              <p>Some date</p>
+              <p>Jan 15, 2021</p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Honors = () => {
             <div className='stylish-font' style={{ display: 'flex', alignItems: 'center' }}>
               <div>
                 <p>Inter-school cricket, Birtamod</p>
-                <p>Some date</p>
+                <p>December 27 , 2022</p>
               </div>
               <div style={{ marginLeft: 'auto', maxWidth: '150px' }}>
                 <img
